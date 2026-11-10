@@ -2,7 +2,11 @@
 
 I build custom software, workflow automation, APIs, internal tools, and AI-assisted systems.
 
-For the past eight years, I’ve worked across frontend, backend, databases, and cloud infrastructure. Most of that work lives in private product repositories, so the public projects here focus on the architecture, workflows, tests, and operating decisions I can share safely.
+Since 2019, I’ve worked across frontend, backend, databases, and cloud infrastructure. Most of that work lives in private product repositories. The public example below focuses on workflow behavior and tests I can share safely.
+
+## Code example
+
+[Reviewed workflow example](https://github.com/jpbuildslab/reviewed-workflow-example) uses TypeScript and SQLite to prepare and revise a service-visit draft, check the current review, and save it with a retryable operation receipt. It includes an executable demo and database-backed tests for tenant scope, stale reviews, retries, and transaction rollback.
 
 ## What I build
 
@@ -18,7 +22,7 @@ I care about what happens after the happy path: failed requests, duplicate work,
 
 The goal is software that makes the operation easier to run, not another system the team has to work around.
 
-Public projects here are sanitized demonstrations and independent product work. They do not expose private client or company code.
+The example is independent demonstration work with AI-assisted implementation. It does not expose private client or company code.
 
 ## Current focus
 
